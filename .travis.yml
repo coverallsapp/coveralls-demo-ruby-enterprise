@@ -1,15 +1,9 @@
-before_install:
-  - bundle config set deployment 'true'
-  - gem install bundler
-
 language: ruby
 rvm:
 - 2.6.3
-dist: trusty
 
 script:
   - bundle exec rspec
-  - wget -cq https://coveralls.io/coveralls-linux.tar.gz -O - | tar -xz && ./coveralls
 
 notifications:
   email: false
