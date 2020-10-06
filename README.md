@@ -1,4 +1,8 @@
-# coveralls-ruby-demo
+# coveralls-ruby-demo- enterprise
+
+A copy of coverallsapp/coveralls-demo-ruby for use with a dev enterprise instance of coveralls.
+
+---
 
 [Coveralls](https://coveralls.io/) demo project, using:
 
