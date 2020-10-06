@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.6.3
+
+script:
+  - bundle exec rspec
+  - wget -cq https://coveralls.io/coveralls-linux.tar.gz -O - | tar -xz && ./coveralls
+
+notifications:
+  email: false
