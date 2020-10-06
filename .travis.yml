@@ -1,5 +1,6 @@
 before_install:
-  - gem install bundler:2.1.4
+  - bundle config set deployment 'true'
+  - gem install bundler
 
 language: ruby
 rvm:
